@@ -1,0 +1,44 @@
+{
+  "name": "scms",
+  "version": "1.0.0",
+  "description": "my scms",
+  "main": "bin/www",//程序主入口的id，用于被别人require时export的位置
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",//使用npm run来执行这里面的代码，如使用npm run test和使用npm test一样
+  },
+  "keywords": [
+    "scms"
+  ],
+  "author": "xiaoming",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "body-parser": "^1.14.2",
+    "cheerio": "^0.20.0",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.2.1",
+    "eslint-plugin-react": "^3.16.1",
+    "express": "^4.13.4",
+    "html-webpack-plugin": "^2.7.2",
+    "iconv-lite": "^0.4.13",
+    "mongoose": "^4.3.7",
+    "react-hot-loader": "^1.3.0",
+    "request": "^2.69.0",
+    "transfer-webpack-plugin": "^0.1.4",
+    "webpack": "^1.12.12",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.6.4"
+  },
+  "dependencies": {
+    "amazeui-react": "^1.0.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0-rc5",
+    "reqwest": "^2.0.5"
+  }
+}
